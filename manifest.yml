@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: basic-to-bots
+  host: basic-to-bots
+  disk_quota: 1024M
+  services:
+  - basic-to-bots-cloudantNoSQLDB
+  - Language Translator-k1
+  - Conversation-g4
